@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS imc_record (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    taille DOUBLE NOT NULL,
+    poids DOUBLE NOT NULL,
+    imc DOUBLE NOT NULL,
+    categorie VARCHAR(255) NOT NULL,
+    date_calcul DATETIME NOT NULL
+);
+
+
+
+
